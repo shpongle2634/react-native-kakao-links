@@ -1,0 +1,21 @@
+{
+  "name": "react-native-kakao-link",
+  "version": "1.0.0",
+  "description": "KakaoLink Module for React-Native",
+  "main": "index.js",
+  "keywords": [
+    "react-native-kakao-link",
+    "kakao",
+    "kakaolink"
+  ],
+  "author": "SeoTaehoon",
+  "license": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  }
+}

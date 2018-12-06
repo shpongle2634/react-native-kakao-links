@@ -1,0 +1,6 @@
+framework module KakaoMessageTemplate {
+  umbrella header "KakaoMessageTemplate.h"
+
+  export *
+  module * { export * }
+}
