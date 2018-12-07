@@ -4,11 +4,23 @@
   "description": "KakaoLink Module for React-Native",
   "main": "index.js",
   "keywords": [
+    "react-native",
     "react-native-kakao-link",
+    "react-native-kakaotalk",
+    "react-native-kakao-talk",
     "kakao",
+    "kakaotalk",
     "kakaolink"
   ],
   "author": "SeoTaehoon",
+  "homepage": "https://github.com/shpongle2634/react-native-kakao-link",
+  "bugs": {
+    "url": "https://github.com/shpongle2634/react-native-kakao-link/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shpongle2634/react-native-kakao-link.git"
+  },
   "license": [
     {
       "type": "MIT",
