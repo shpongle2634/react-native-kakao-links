@@ -53,8 +53,6 @@ react-native link 를 이용하시면 빠른 설치가 가능합니다.
 
 #### IOS
 
-//TODO
-
 카카오링크 공식가이드
 https://developers.kakao.com/docs/ios/kakaotalk-link 를 참고하셔서 모듈을 사용하기위한 KakaoSDK를 설치하시기 바랍니다.
 
@@ -63,13 +61,14 @@ https://developers.kakao.com/docs/ios/kakaotalk-link 를 참고하셔서 모듈�
 
 #### Android
 
-//TODO
-
 카카오링크 공식가이드
 https://developers.kakao.com/docs/android/kakaotalk-link 를 참고하셔서 모듈을 사용하기위한 Kakao SDK를 설치하시기 바랍니다.
 
 
-#### Object Type 소개
+
+## Usage
+
+### Object Type 소개
 
 카카오링크 공식 가이드에 의하면 카카오링크는 몇가지 지정된 템플릿을 이용하여 메시지를 전송하게 됩니다.
 템플릿 메시지를 작성하기 위해서는 아래 Object Type을 이용하여 템플릿을 손쉽게 작성할 수 있습니다.
@@ -115,13 +114,12 @@ type CommerceDetailObject ={
 };
 ```
 
-## Usage
 카카오링크 메시지를 전송은 템플릿 종류와 상관없이 `RNKakaoLink.link( options );` 를 사용합니다.
 여기서 options는 아래 1~7 의 Template Type을 의미합니다.
 
 전체 샘플코드는 `/examples/TemplateExamples.js` 를 참조해주세요.
 
-#### 1. FeedTemplate
+### 1. FeedTemplate
 ```javascript
 type FeedTemplate = {
         objectType    : 'feed',             //required
@@ -163,7 +161,7 @@ export default class TemplateExample extends Component {
 ```
 
 
-#### 2. ListTemplate
+### 2. ListTemplate
 ```javascript
 type ListTemplate = {
         objectType    :'list',                //required
@@ -248,7 +246,7 @@ export default class TemplateExample extends Component {
 ```
 
 
-#### 4. CommerceTemplate
+### 4. CommerceTemplate
 ```javascript
 type FeedTemplate = {
         objectType    : 'feed',             //required
@@ -288,7 +286,7 @@ export default class TemplateExample extends Component {
 }
 ```
 
-#### 5. TextTemplate
+### 5. TextTemplate
 ```javascript
 type TextTemplate = {
         objectType  : string,  //required
@@ -329,7 +327,7 @@ export default class TemplateExample extends Component {
 }
 ```
 
-#### 6. Scrap
+### 6. Scrap
 ```javascript
 type Scrap = {
         objectType  : string,  //required
@@ -365,7 +363,7 @@ export default class TemplateExample extends Component {
 }
 ```
 
-#### 7. Custom
+### 7. Custom
 ```javascript
 type CustomTemplate = {
         objectType    : 'feed',             //required
