@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import RNKakaoLink from 'react-native-kakao-links';
 import {
   View,
   Text,
@@ -6,7 +7,6 @@ import {
   ScrollView,
   TouchableOpacity,
 } from 'react-native';
-import RNKakaoLink from 'react-native-kakao-link';
 
 
 const linkObject={
@@ -37,8 +37,8 @@ const socialObject ={
 }
 
 const buttonObject = {
-  title:'앱으로보기',
-  link : linkObject,
+  title:'앱으로보기',//required
+  link : linkObject,//required
 }
 
 
