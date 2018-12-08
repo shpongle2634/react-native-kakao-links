@@ -3,14 +3,14 @@ React-Native Kakao Link Module
 
 ### Note
 
-안녕하세요. 술 1병으로 모두가 어깨춤을 추게하는 '꽁알' 서비스를 운영중인 JOOTOPIA입니다.
-이번 업데이트에서 카카오 링크 기능이 필요하여 제작하게 되었습니다.
-여러분의 빠른 서비스 개발을 응원합니다.
+안녕하세요. 술 1병으로 모두가 어깨춤을 추게하는 '꽁알' 서비스를 준비중인 JOOTOPIA입니다.
+RN으로 서비스를 개발하는 중 카카오링크 기능이 필요하여 본 모듈을 제작하게 되었습니다.
 
-참고하실 사항으로는 react-native-kakao-link 패키지로 만들었는데 npm에 등록이 불가하여
-패키지명을 react-native-kakao-links로 지정하였습니다.
-따라서 Android 패키지 및 IOS 패키지 명은 RNKakaoLinks 가 아닌 RNKakaoLink 입니다.
-Manual installation시 유의하시기 바랍니다.
+지원하지 않는 기능 및 오류가 있으시면 이슈란에 남겨주시기 바랍니다.
+
+참고하실 사항으로는 본래 패키지 이름을 react-native-kakao-link 패키지로 하고싶었으나
+npm에 등록이 불가하여 패키지명을 react-native-kakao-links로 지정하였습니다.
+그러한 흔적(?)으로 Android 패키지 및 IOS 패키지 명은 RNKakaoLinks 가 아닌 RNKakaoLink 입니다. Manual installation 및 사용시 유의하시기 바랍니다.
 
 ## Getting started
 
@@ -118,6 +118,8 @@ type CommerceDetailObject ={
 여기서 options는 아래 1~7 의 Template Type을 의미합니다.
 
 전체 샘플코드는 `/examples/TemplateExamples.js` 를 참조해주세요.
+
+**Note** : 공식 문서에는 버튼 이름을 지정하는 buttonTitle 옵션을 지정할 수 있다고 나와있으나 sdk 에서 이를 설정할 수 있는 API가 존재하지 않아 명시하지 않았습니다. buttons 를 이용하시기 바랍니다.
 
 ### 1. FeedTemplate
 ```javascript
@@ -403,3 +405,7 @@ export default class TemplateExample extends Component {
   }
 }
 ```
+## TODO
+
+#### Callback
+#### 카카오스토리 링크
