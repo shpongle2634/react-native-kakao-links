@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "React-Native Module for KakaoLink",
   "main": "index.js",
+  "typings": "index.d.ts",
   "keywords": [
     "react-native",
     "react-native-kakao",
