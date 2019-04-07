@@ -4,7 +4,7 @@ React-Native Kakao Link Module
 ### 필독!
 /android 패키지 이름을 변경했습니다.
 
-# com.reactlibrary => co.jootopia.kakao.link
+com.reactlibrary => co.jootopia.kakao.link
 
 react-native-kakao-plus-friend 와 같이 사용하시는경우 패키지명 중복으로 빌드 에러가 발생할 수 있습니다!
 이런 경우 수동으로 패키지명을 바꿔주셔야합니다..!
