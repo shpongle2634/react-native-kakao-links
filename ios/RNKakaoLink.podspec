@@ -6,17 +6,18 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   RNKakaoLink
                    DESC
-  s.homepage     = ""
+  s.homepage     = "n/a"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/author/RNKakaoLink.git", :tag => "master" }
-  s.source_files  = "RNKakaoLink/**/*.{h,m}"
+  s.source       = { :git => "https://github.com/shpongle2634/react-native-kakao-links.git", :tag => "master" }
+  s.source_files  = "*.{h,m}"
   s.requires_arc = true
 
 
   s.dependency "React"
+  s.dependency 'KakaoOpenSDK'
   #s.dependency "others"
 
 end
