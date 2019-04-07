@@ -1,5 +1,5 @@
 
-package com.reactlibrary;
+package co.jootopia.kakao.link;
 
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.ReactApplicationContext;

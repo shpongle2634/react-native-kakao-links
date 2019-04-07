@@ -1,5 +1,6 @@
 
-package com.reactlibrary;
+package co.jootopia.kakao.link;
+
 
 import java.util.Arrays;
 import java.util.Collections;
