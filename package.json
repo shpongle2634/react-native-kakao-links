@@ -1,6 +1,6 @@
 {
   "name": "react-native-kakao-links",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React-Native Module for KakaoLink",
   "main": "index.js",
   "typings": "index.d.ts",
