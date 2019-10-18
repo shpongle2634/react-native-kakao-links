@@ -1,6 +1,6 @@
 {
   "name": "react-native-kakao-links",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React-Native Module for KakaoLink",
   "main": "index.js",
   "typings": "index.d.ts",
@@ -34,6 +34,6 @@
     }
   ],
   "peerDependencies": {
-    "react-native": "^0.41.2"
+    "react-native": ">= 0.51"
   }
 }

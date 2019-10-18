@@ -2,12 +2,9 @@
 React-Native Kakao Link Module
 
 ### 필독!
-/android 패키지 이름을 변경했습니다.
-
-com.reactlibrary => co.jootopia.kakao.link
 
 react-native-kakao-plus-friend 와 같이 사용하시는경우 패키지명 중복으로 빌드 에러가 발생할 수 있습니다!
-이런 경우 수동으로 패키지명을 바꿔주셔야합니다..!
+이런 경우 패키지명을 중복하여 읽는 경우가 발생하여 수동으로 패키지명을 바꿔주셔야합니다..!
 
 ### Note
 
@@ -25,7 +22,7 @@ npm에 등록이 불가하여 패키지명을 react-native-kakao-links로 지정
 `$ npm install react-native-kakao-links --save`
 
 
-### 빠른 설치
+### 빠른 설치 (<=RN 0.59)
 react-native link 를 이용하시면 빠른 설치가 가능합니다.
 
 `$ react-native link react-native-kakao-links`
@@ -44,7 +41,7 @@ react-native link 를 이용하시면 빠른 설치가 가능합니다.
 #### Android
 
 1. Open up `android/app/src/main/java/[...]/MainActivity.java`
-  - Add `import com.reactlibrary.RNKakaoLinkPackage;` to the imports at the top of the file
+  - Add `import co.jootopia.kakao.link.RNKakaoLinkPackage;` to the imports at the top of the file
   - Add `new RNKakaoLinkPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
