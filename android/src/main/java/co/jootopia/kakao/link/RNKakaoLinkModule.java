@@ -30,7 +30,10 @@ import com.kakao.network.callback.ResponseCallback;
 import com.kakao.util.helper.log.Logger;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
+
+import javax.annotation.Nonnull;
 
 public class RNKakaoLinkModule extends ReactContextBaseJavaModule {
 
