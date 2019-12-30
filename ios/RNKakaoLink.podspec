@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 
 
   s.dependency "React"
-  s.dependency 'KakaoOpenSDK'
+  # s.dependency 'KakaoOpenSDK'
   #s.dependency "others"
 
 end
-
-  

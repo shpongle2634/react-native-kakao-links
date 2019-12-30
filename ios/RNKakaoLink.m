@@ -43,7 +43,7 @@ RCT_EXPORT_METHOD(link:(NSDictionary *)options
         NSString * objectType =[options objectForKey:@"objectType"];
         NSDictionary* serverCallbackArgs = [options objectForKey:@"serverCallbackArgs"];
 //        RCTLogInfo(@"objectType : %@", objectType);
-        
+
         if([objectType isEqualToString:@"feed"]){
             template = [self createKMTFeedTemplate:options];
             [self sendDefaultWithTemplate:template
@@ -86,12 +86,12 @@ RCT_EXPORT_METHOD(link:(NSDictionary *)options
                           resolver:resolve
                           rejecter:reject];
         }
-        
+
     }
     @catch (NSException * e) {
-        reject(@"메시지 템플릿을 확인해주세요.(custom 미지원)", @"Wrong Parameters",NULL);
+        reject(@"Wrong Parameters",e.reason,NULL);
     }
-    
+
 }
 
 //Send Templates
@@ -101,7 +101,7 @@ rejecter: (RCTPromiseRejectBlock)reject
 {
     NSString * templateId = [options objectForKey:@"templateId"];
     NSDictionary * templateArgs = [options objectForKey:@"templateArgs"];
-    
+
     [[KLKTalkLinkCenter sharedCenter] sendCustomWithTemplateId:templateId templateArgs:templateArgs
                                                        success: [self success: resolve]
                                                        failure: [self failure: reject]];
@@ -133,7 +133,7 @@ rejecter: (RCTPromiseRejectBlock)reject
     NSString* templateId = [options objectForKey:@"templateId"];
     NSDictionary* templateArgs=[options objectForKey:@"templateArgs"];
     NSDictionary* serverCallbackArgs =[options objectForKey:@"serverCallbackArgs"];
-    
+
     if(templateArgs==nil){
         [[KLKTalkLinkCenter sharedCenter] sendScrapWithURL:[NSURL URLWithString:url]
                                                    success: [self success: resolve]
@@ -187,15 +187,15 @@ rejecter: (RCTPromiseRejectBlock)reject
      imageWidth?    :NSNumber
      imageHeight?   :NSNumber
      */
-    
+
     KMTContentObject* contentObject = [KMTContentObject contentObjectWithBuilderBlock:^(KMTContentBuilder * _Nonnull contentBuilder) {
-        
+
         NSString* title =[content objectForKey:@"title"];
         NSString* imageURL =[[content objectForKey:@"imageURL"] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
         contentBuilder.title = title;
         contentBuilder.link = [self createKMTLinkObject: ([content objectForKey:@"link"])];
         contentBuilder.imageURL = [NSURL URLWithString:imageURL];
-        
+
         if([content objectForKey:@"desc"]!=nil)
             contentBuilder.desc =[content objectForKey:@"desc"];
         if([content objectForKey:@"imageWidth"]!=nil)
@@ -218,13 +218,13 @@ rejecter: (RCTPromiseRejectBlock)reject
      androidExecutionParams?: NSString
      iosExecutionParams?    : NSString
      */
- 
-    
+
+
     KMTLinkObject* linkObject =[KMTLinkObject linkObjectWithBuilderBlock:^(KMTLinkBuilder * _Nonnull linkBuilder) {
-        
+
         NSString* webURL =[[link objectForKey:@"webURL"] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
         NSString* mobileWebURL =[[link objectForKey:@"mobileWebURL"] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-        
+
        if(webURL!=nil)
            linkBuilder.webURL =[NSURL URLWithString:webURL];
         if(mobileWebURL!=nil)
@@ -270,8 +270,8 @@ rejecter: (RCTPromiseRejectBlock)reject
      title     :NSString
      link      :KMTLinkObject
      */
-    
-    
+
+
     KMTButtonObject * buttonObject = [KMTButtonObject buttonObjectWithBuilderBlock:^(KMTButtonBuilder * _Nonnull buttonBuilder) {
         buttonBuilder.title = [button objectForKey:@"title"];
         buttonBuilder.link = [self createKMTLinkObject:[button objectForKey:@"link"]];
@@ -289,17 +289,17 @@ rejecter: (RCTPromiseRejectBlock)reject
      fixedDiscountPrice?    :NSNumber
      */
     KMTCommerceObject * commerceObject = [KMTCommerceObject commerceObjectWithBuilderBlock:^(KMTCommerceBuilder * _Nonnull commerceBuilder) {
-        
+
         commerceBuilder.regularPrice = [commerce objectForKey:@"regularPrice"];
         if([commerce objectForKey:@"discountPrice"] !=nil)
             commerceBuilder.discountPrice =[commerce objectForKey:@"discountPrice"] ;
-        
+
         if([commerce objectForKey:@"discountRate"] !=nil)
             commerceBuilder.discountRate =[commerce objectForKey:@"discountRate"] ;
-        
+
         if([commerce objectForKey:@"fixedDiscountPrice"] !=nil)
             commerceBuilder.fixedDiscountPrice =[commerce objectForKey:@"fixedDiscountPrice"] ;
-        
+
     }];
     return commerceObject;
 }
@@ -316,14 +316,14 @@ rejecter: (RCTPromiseRejectBlock)reject
      buttons?       :NSArray<KMTButtonObject>
      */
     KMTFeedTemplate * feedTemplate =[KMTFeedTemplate feedTemplateWithBuilderBlock:^(KMTFeedTemplateBuilder * _Nonnull feedTemplateBuilder) {
-        
+
 //        RCTLogInfo(@"options : %@", options);
-        
+
         feedTemplateBuilder.content = [self createKMTContentObject : [options objectForKey:@"content"]];
-        
+
         if([options objectForKey:@"social"] != nil)
             feedTemplateBuilder.social = [self createKMTSocialObject:[options objectForKey:@"social"]];
-        
+
         if([options objectForKey:@"buttons"] != nil){
             NSArray * buttons = [options objectForKey:@"buttons"];
             for(NSDictionary * btn in buttons){
@@ -344,15 +344,15 @@ rejecter: (RCTPromiseRejectBlock)reject
      buttons?       :NSArray<KMTButtonObject>
      */
     KMTCommerceTemplate * commerceTemplate =[KMTCommerceTemplate commerceTemplateWithBuilderBlock:^(KMTCommerceTemplateBuilder * _Nonnull commerceTemplateBuilder) {
-        
+
         commerceTemplateBuilder.content = [self createKMTContentObject : [options objectForKey:@"content"]];
-        
+
         if([options objectForKey:@"commerce"] != nil)
             commerceTemplateBuilder.commerce = [self createKMTCommerceObject:[options objectForKey:@"commerce"]];
-        
+
         if([options objectForKey:@"buttonTitle"] != nil)
             commerceTemplateBuilder.buttonTitle = [options objectForKey:@"buttonTitle"];
-        
+
         if([options objectForKey:@"buttons"] != nil){
             NSArray * buttons = [options objectForKey:@"buttons"];
             for(NSDictionary * btn in buttons){
@@ -374,18 +374,18 @@ rejecter: (RCTPromiseRejectBlock)reject
      buttons?       :NSArray<KMTButtonObject>
      */
     KMTListTemplate * listTemplate =[KMTListTemplate listTemplateWithBuilderBlock:^(KMTListTemplateBuilder * _Nonnull listTemplateBuilder) {
-        
+
         listTemplateBuilder.headerTitle = [options objectForKey:@"headerTitle"];
         listTemplateBuilder.headerLink = [self createKMTLinkObject:[options objectForKey:@"headerLink"]];
-        
+
         NSArray * contents = [options objectForKey:@"contents"];
         for(NSDictionary * content in contents){
             [listTemplateBuilder addContent:[self createKMTContentObject:content]];
         }
-        
+
         if([options objectForKey:@"buttonTitle"] != nil)
             listTemplateBuilder.buttonTitle = [options objectForKey:@"buttonTitle"];
-        
+
         if([options objectForKey:@"buttons"] != nil){
             NSArray * buttons = [options objectForKey:@"buttons"];
             for(NSDictionary * btn in buttons){
@@ -408,19 +408,19 @@ rejecter: (RCTPromiseRejectBlock)reject
      buttons?       :NSArray<KMTButtonObject>
      */
     KMTLocationTemplate * locationTemplate =[KMTLocationTemplate locationTemplateWithBuilderBlock:^(KMTLocationTemplateBuilder * _Nonnull locationTemplateBuilder) {
-        
+
         locationTemplateBuilder.content = [self createKMTContentObject : [options objectForKey:@"content"]];
         locationTemplateBuilder.address = [options objectForKey:@"address"];
-        
+
         if([options objectForKey:@"addressTitle"] != nil)
             locationTemplateBuilder.addressTitle = [options objectForKey:@"addressTitle"];
-        
+
         if([options objectForKey:@"social"] != nil)
             locationTemplateBuilder.social = [self createKMTSocialObject:[options objectForKey:@"social"]];
-        
+
         if([options objectForKey:@"buttonTitle"] != nil)
             locationTemplateBuilder.buttonTitle = [options objectForKey:@"buttonTitle"];
-        
+
         if([options objectForKey:@"buttons"] != nil){
             NSArray * buttons = [options objectForKey:@"buttons"];
             for(NSDictionary * btn in buttons){
@@ -441,13 +441,13 @@ rejecter: (RCTPromiseRejectBlock)reject
      buttons?       :NSArray<KMTButtonObject>
      */
     KMTTextTemplate * textTemplate =[KMTTextTemplate textTemplateWithBuilderBlock:^(KMTTextTemplateBuilder * _Nonnull textTemplateBuilder) {
-        
+
         textTemplateBuilder.text =[options objectForKey:@"text"];
         textTemplateBuilder.link = [self createKMTLinkObject:[options objectForKey:@"link"]];
-      
+
         if([options objectForKey:@"buttonTitle"] != nil)
             textTemplateBuilder.buttonTitle = [options objectForKey:@"buttonTitle"];
-        
+
         if([options objectForKey:@"buttons"] != nil){
             NSArray * buttons = [options objectForKey:@"buttons"];
             for(NSDictionary * btn in buttons){
@@ -460,4 +460,3 @@ rejecter: (RCTPromiseRejectBlock)reject
 
 
 @end
-  

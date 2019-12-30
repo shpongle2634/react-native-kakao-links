@@ -1,6 +1,0 @@
-framework module KakaoPlusFriend {
-  umbrella header "KakaoPlusFriend.h"
-
-  export *
-  module * { export * }
-}

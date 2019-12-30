@@ -6,9 +6,105 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a1d7efa-60d7-4ea1-a18c-eb24a70a8356" name="Default" comment="" />
+    <list default="true" id="3a1d7efa-60d7-4ea1-a18c-eb24a70a8356" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/jootopia/kakao/link/RNKakaoLinkModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/jootopia/kakao/link/RNKakaoLinkModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoCommon.framework/Headers/KCMAgent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoCommon.framework/Headers/KCMConfiguration.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoCommon.framework/Headers/KCMError.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoCommon.framework/Headers/KCMException.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoCommon.framework/Headers/KCMUtils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoCommon.framework/Headers/KakaoCommon.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoCommon.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoCommon.framework/KakaoCommon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoCommon.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoLink.framework/Headers/KLKError.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoLink.framework/Headers/KLKImageStorage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoLink.framework/Headers/KLKTalkLinkCenter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoLink.framework/Headers/KLKTalkLinkCore.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoLink.framework/Headers/KakaoLink.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoLink.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoLink.framework/KakaoLink" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoLink.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoMessageTemplate.framework/Headers/KMTButtonObject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoMessageTemplate.framework/Headers/KMTCommerceObject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoMessageTemplate.framework/Headers/KMTCommerceTemplate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoMessageTemplate.framework/Headers/KMTContentObject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoMessageTemplate.framework/Headers/KMTFeedTemplate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoMessageTemplate.framework/Headers/KMTLinkObject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoMessageTemplate.framework/Headers/KMTListTemplate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoMessageTemplate.framework/Headers/KMTLocationTemplate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoMessageTemplate.framework/Headers/KMTParamObject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoMessageTemplate.framework/Headers/KMTSocialObject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoMessageTemplate.framework/Headers/KMTTemplate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoMessageTemplate.framework/Headers/KMTTextTemplate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoMessageTemplate.framework/Headers/KakaoMessageTemplate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoMessageTemplate.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoMessageTemplate.framework/KakaoMessageTemplate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoMessageTemplate.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOAccessTokenInfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOAgeAuthQueryStringBuilder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOAppFriend.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOBaseContext.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOChat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOChatContext.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOChatMember.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOError.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOFriend.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOFriendContext.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOFriendOperation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOHTTPMethod.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOImages.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOLoginButton.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOPushTokenInfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOSession.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOSessionTask+AgeAuthAPI.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOSessionTask+AppFriendAPI.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOSessionTask+FriendAPI.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOSessionTask+PushAPI.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOSessionTask+StoryAPI.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOSessionTask+TalkAPI.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOSessionTask+TokenAPI.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOSessionTask+UserManagementAPI.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOSessionTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOStoryActorInfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOStoryCommentInfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOStoryLikeInfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOStoryLinkInfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOStoryMyStoryImageInfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOStoryMyStoryInfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOStoryPostInfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOStoryProfile.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOTalkMessageSending.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOTalkProfile.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOToken.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOUser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOUserInfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOUserMe.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KOUtils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KakaoOpenSDK.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KakaoPushMessageObject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KakaoPushMessagePropertyForApns.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Headers/KakaoPushMessagePropertyForGcm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/KakaoOpenSDK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoOpenSDK.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoPlusFriend.framework/Headers/KPFPlusFriend.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoPlusFriend.framework/Headers/KakaoPlusFriend.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoPlusFriend.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoPlusFriend.framework/KakaoPlusFriend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/KakaoPlusFriend.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/RNKakaoLink.m" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/RNKakaoLink.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/RNKakaoLink.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/RNKakaoLink.podspec" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,36 +118,40 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="RNKakaoLinkPackage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/reactlibrary/RNKakaoLinkPackage.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/co/jootopia/kakao/link/RNKakaoLinkModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RNKakaoLinkModule.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/reactlibrary/RNKakaoLinkModule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+            <state relative-caret-position="-5576">
+              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
     </leaf>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
-      </map>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/reactlibrary/RNKakaoLinkModule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/jootopia/kakao/link/RNKakaoLinkModule.java" />
       </list>
     </option>
   </component>
@@ -60,11 +160,15 @@
     <option name="width" value="1440" />
     <option name="height" value="788" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
@@ -97,7 +201,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="android" type="1abcf292:AndroidViewProjectNode" />
@@ -105,15 +209,35 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="reactlibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="jootopia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="jootopia" type="462c0819:PsiDirectoryNode" />
+              <item name="kakao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="jootopia" type="462c0819:PsiDirectoryNode" />
+              <item name="kakao" type="462c0819:PsiDirectoryNode" />
+              <item name="link" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,31 +257,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
@@ -191,6 +290,20 @@
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -209,47 +322,55 @@
     <frame x="0" y="23" width="1440" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info id="Build Variants" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
-      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.32934132" />
-      <window_info anchor="right" id="Gradle" />
+      <window_info id="Resources Explorer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Captures" order="2" weight="0.25" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Build" order="10" visible="true" weight="0.32934132" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Gradle" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/reactlibrary/RNKakaoLinkPackage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/reactlibrary/RNKakaoLinkPackage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/reactlibrary/RNKakaoLinkModule.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state />
+        <state relative-caret-position="690">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/reactlibrary/RNKakaoLinkModule.java">
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/jootopia/kakao/link/RNKakaoLinkModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+        <state relative-caret-position="-5576">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
         </state>
       </provider>
     </entry>
