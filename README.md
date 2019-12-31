@@ -30,33 +30,9 @@ RN 0.60버전이 나옴에 따라 linking 과정이 생략되었습니다.
 react-native link 를 이용하시면 빠른 설치가 가능합니다.
 `$ react-native link react-native-kakao-links`
 
-### 수동링크 Link
+**Note** 수동 링크과정은 생략합니다.
 
-#### iOS
-
-1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2. Go to `node_modules` ➜ `react-native-kakao-links` and add `RNKakaoLink.xcodeproj`
-3. In XCode, in the project navigator, select your project. Add `libRNKakaoLink.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
-4. Run your project (`Cmd+R`)<
-
-#### Android
-
-1. Open up `android/app/src/main/java/[...]/MainActivity.java`
-
-- Add `import co.jootopia.kakao.link.RNKakaoLinkPackage;` to the imports at the top of the file
-- Add `new RNKakaoLinkPackage()` to the list returned by the `getPackages()` method
-
-2. Append the following lines to `android/settings.gradle`:
-   ```
-   include ':react-native-kakao-links'
-   project(':react-native-kakao-links').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-kakao-links/android')
-   ```
-3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
-   ```
-     compile project(':react-native-kakao-links')
-   ```
-
-## Install KakaoSDK
+## _필수_ Install KakaoSDK
 
 #### IOS
 
@@ -76,13 +52,17 @@ BuildSettings - Framework SearchPath 에 \$(PROJECT_DIR)/.. 를 추가해주시�
 
 android/build.gradle내에
 
-````subprojects {
+```
+subprojects {
     repositories {
         mavenCentral()
         maven { url 'http://devrepo.kakao.com:8088/nexus/content/groups/public/' }
     }
-}```
-만 추가해주시면 됩니다
+}
+```
+
+를 추가해주시면 됩니다
+
 
 ## Usage
 
@@ -422,8 +402,18 @@ export default class TemplateExample extends Component {
 }
 ```
 
-## TODO
+### FAQ
 
-#### Callback
+#### 1. LinkObject 의 webURL / mobileWebURL 파라미터가 동작하지 않는경우.
 
-#### 카카오스토리 링크
+다음과 같은 시나리오를 원하는 경우 참고하시길 바랍니다.
+
+1.  앱에서 타유저에게 카카오 링크 전송
+2.  타유저가 링크 클릭
+    2.1 앱 설치시 앱으로 이동.
+    2.2 미설치시 마켓 url이 아닌 서비스 홈페이지로 이동
+
+webURL/mobileWebURL 파라미터를 활용하여, 유입 고객을 앱 설치가 아닌
+서비스 홈페이지로 유도하고자 한다면,
+카카오 콘솔 - 내 애플리케이션에서 웹 플랫폼 추가 후 url에 해당하는 해당하는 도메인을 추가해주셔야 2.2가 정상적으로 동작합니다.
+\*\*타 도메인의 웹 URL을 링크하고 싶은 경우 Scrap Template 을 이용하시면 됩니다.
