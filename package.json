@@ -27,12 +27,7 @@
     "type": "git",
     "url": "git+https://github.com/shpongle2634/react-native-kakao-links.git"
   },
-  "license": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
-    }
-  ],
+  "license": "MIT",
   "peerDependencies": {
     "react-native": ">= 0.51"
   }
