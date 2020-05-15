@@ -1,3 +1,5 @@
-declare function link(options: Object): Promise<Object>;
-
-export default link;
+declare module 'react-native-kakao-links' {
+  export default class RNKakaoLink {
+    public static link(options: Record<string, unknown>): Promise<Record<string, unknown>>;
+  }
+}
