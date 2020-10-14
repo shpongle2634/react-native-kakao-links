@@ -1,6 +1,6 @@
 {
-  "name": "react-native-kakao-links",
-  "version": "1.0.6",
+  "name": "@miso/react-native-kakao-link",
+  "version": "0.1.0",
   "description": "React-Native Module for KakaoLink",
   "main": "index.js",
   "typings": "index.d.ts",
@@ -9,26 +9,33 @@
     "react-native-kakao",
     "react-native-kakao-link",
     "react-native-kakao-links",
-    "react-native-kakaotalk",
-    "react-native-kakao-talk",
     "kakao",
-    "kakaotalk",
     "kakaolink"
   ],
+  "files": [
+    "ios",
+    "android",
+    "index.*",
+    "RNKakaoLink.podspec",
+    "!examples",
+    "!**/.idea",
+    "!**/.gradle",
+    "!android/build"
+  ],
   "author": {
-    "name": "Seo Taehoon",
-    "url": "https://github.com/shpongle2634"
+    "name": "Yeongmok Kim",
+    "url": "https://github.com/yeongmok"
   },
-  "homepage": "https://github.com/shpongle2634/react-native-kakao-links",
+  "homepage": "https://github.com/getmiso/react-native-kakao-link",
   "bugs": {
-    "url": "https://github.com/shpongle2634/react-native-kakao-links/issues"
+    "url": "https://github.com/getmiso/react-native-kakao-link/issue"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shpongle2634/react-native-kakao-links.git"
+    "url": "git+https://github.com/getmiso/react-native-kakao-links.git"
   },
   "license": "MIT",
   "peerDependencies": {
-    "react-native": ">= 0.51"
+    "react-native": ">= 0.62"
   }
 }

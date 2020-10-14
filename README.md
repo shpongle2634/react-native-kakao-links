@@ -2,6 +2,17 @@
 
 React-Native Kakao Link Module
 
+### Summary
+Forked from https://github.com/trabricks-react/react-native-kakaosdk
+
+It changed below things
+ - iOS SDK: 1.23.4
+    - note: iOS SDK 1.23.5에는 Xcode 11에서 빌드 에러가 있음
+    - podspec을 publish에 포함 - 수동으로 iOS SDK 설정 할 필요 없음
+ - Android SDK: 1.30.2
+    - change kakao repo url to https
+ - Message Template type 정의 
+
 ### 필독!
 
 react-native-kakao-plus-friend 와 같이 사용하시는경우 패키지명 중복으로 빌드 에러가 발생할 수 있습니다!
@@ -72,7 +83,7 @@ subprojects {
 템플릿 메시지를 작성하기 위해서는 아래 Object Type을 이용하여 템플릿을 손쉽게 작성할 수 있습니다.
 아래 Object Type을 가지고 메시지 템플릿이 어떻게 구성되는지는 다음 섹션을 참조해주세요.
 
-```javascript
+```typescript
 type LinkObject = {
   webURL?: string, //optional
   mobileWebURL?: string, //optional
@@ -120,7 +131,7 @@ type CommerceDetailObject = {
 
 ### 1. FeedTemplate
 
-```javascript
+```typescript
 type FeedTemplate = {
   objectType: "feed", //required
   content: ContentObject, //required
@@ -160,7 +171,7 @@ export default class TemplateExample extends Component {
 
 ### 2. ListTemplate
 
-```javascript
+```typescript
 type ListTemplate = {
   objectType: "list", //required
   headerTitle: string, //required
@@ -202,7 +213,7 @@ export default class TemplateExample extends Component {
 
 #### 3. LocationTemplate
 
-```javascript
+```typescript
 type LocationTemplate = {
   objectType: "location", //required
   content: ContentObject, //required
@@ -244,7 +255,7 @@ export default class TemplateExample extends Component {
 
 ### 4. CommerceTemplate
 
-```javascript
+```typescript
 type FeedTemplate = {
   objectType: "feed", //required
   content: ContentObject, //required
@@ -285,7 +296,7 @@ export default class TemplateExample extends Component {
 
 ### 5. TextTemplate
 
-```javascript
+```typescript
 type TextTemplate = {
   objectType: string, //required
   text: string, //required
@@ -326,7 +337,7 @@ export default class TemplateExample extends Component {
 
 ### 6. Scrap
 
-```javascript
+```typescript
 type Scrap = {
   objectType: string, //required
   url: string //required
@@ -362,7 +373,7 @@ export default class TemplateExample extends Component {
 
 ### 7. Custom
 
-```javascript
+```typescript
 type CustomTemplate = {
   objectType: "feed", //required
   templateId: string, //required
