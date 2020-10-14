@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		80591CDB21B8D08B002FF85E /* KakaoMessageTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80591CD721B8D08A002FF85E /* KakaoMessageTemplate.framework */; };
-		80591CDC21B8D08B002FF85E /* KakaoPlusFriend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80591CD821B8D08A002FF85E /* KakaoPlusFriend.framework */; };
-		80591CDD21B8D08B002FF85E /* KakaoLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80591CD921B8D08A002FF85E /* KakaoLink.framework */; };
-		80591CDE21B8D08B002FF85E /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80591CDA21B8D08B002FF85E /* KakaoOpenSDK.framework */; };
-		80591CE021B8D0B2002FF85E /* KakaoCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80591CDF21B8D0B2002FF85E /* KakaoCommon.framework */; };
 		B3E7B58A1CC2AC0600A0062D /* RNKakaoLink.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNKakaoLink.m */; };
 /* End PBXBuildFile section */
 
@@ -29,11 +24,6 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNKakaoLink.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNKakaoLink.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		80591CD721B8D08A002FF85E /* KakaoMessageTemplate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoMessageTemplate.framework; sourceTree = "<group>"; };
-		80591CD821B8D08A002FF85E /* KakaoPlusFriend.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoPlusFriend.framework; sourceTree = "<group>"; };
-		80591CD921B8D08A002FF85E /* KakaoLink.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoLink.framework; sourceTree = "<group>"; };
-		80591CDA21B8D08B002FF85E /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
-		80591CDF21B8D0B2002FF85E /* KakaoCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoCommon.framework; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNKakaoLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNKakaoLink.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNKakaoLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNKakaoLink.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,11 +33,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80591CE021B8D0B2002FF85E /* KakaoCommon.framework in Frameworks */,
-				80591CDC21B8D08B002FF85E /* KakaoPlusFriend.framework in Frameworks */,
-				80591CDE21B8D08B002FF85E /* KakaoOpenSDK.framework in Frameworks */,
-				80591CDB21B8D08B002FF85E /* KakaoMessageTemplate.framework in Frameworks */,
-				80591CDD21B8D08B002FF85E /* KakaoLink.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,23 +50,10 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				80591CD621B8D020002FF85E /* Frameworks */,
 				B3E7B5881CC2AC0600A0062D /* RNKakaoLink.h */,
 				B3E7B5891CC2AC0600A0062D /* RNKakaoLink.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		80591CD621B8D020002FF85E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				80591CDF21B8D0B2002FF85E /* KakaoCommon.framework */,
-				80591CD921B8D08A002FF85E /* KakaoLink.framework */,
-				80591CD721B8D08A002FF85E /* KakaoMessageTemplate.framework */,
-				80591CDA21B8D08B002FF85E /* KakaoOpenSDK.framework */,
-				80591CD821B8D08A002FF85E /* KakaoPlusFriend.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
