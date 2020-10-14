@@ -18,62 +18,30 @@ It changed below things
 react-native-kakao-plus-friend 와 같이 사용하시는경우 패키지명 중복으로 빌드 에러가 발생할 수 있습니다!
 이런 경우 패키지명을 중복하여 읽는 경우가 발생하여 수동으로 패키지명을 바꿔주셔야합니다..!
 
-### Note
-
-안녕하세요. JOOTOPIA 입니다.
-소스 관리에 소홀하여 불편을 드려 죄송합니다.
-
-지원하지 않는 기능 및 오류가 있으시면 이슈란에 남겨주시기 바랍니다.
-RN 0.60버전이 나옴에 따라 linking 과정이 생략되었습니다.
-
 ## Installation
 
-`$ npm install react-native-kakao-links --save`
+`$ npm install @miso/react-native-kakao-link --save`
 
 ### React Native Link
 
-#### RN >= 0.60
-
-링크가 필요하지 않습니다.
-
-#### RN <= 0.59
-
-react-native link 를 이용하시면 빠른 설치가 가능합니다.
-`$ react-native link react-native-kakao-links`
-
-**Note** 수동 링크과정은 생략합니다.
-
-## _필수_ Install KakaoSDK
-
 #### IOS
 
-**Note**: CocoaPod에서 `pod 'KakaoOpenSDK'`를 사용하고자 했으나, pod install 이 불가한 것 같습니다
+카카오링크 공식가이드\
+https://developers.kakao.com/docs/latest/ko/getting-started/sdk-ios#legacy
 
-카카오링크 공식가이드
-https://developers.kakao.com/docs/latest/ko/message/common 를 참고하셔서 모듈을 사용하기위한 KakaoSDK를 설치하시기 바랍니다.
-
-**Note** : KakaoSDK frameworks를 추가한 후 Pods - RNKakaoLink 에서 헤더를 참조하지 못하는 경우
-
-XCode의 좌측에서 Pods PROJECT 선택 후 TARGETS - RNKakaoLink 를 찾아
-BuildSettings - Framework SearchPath 에 \$(PROJECT_DIR)/.. 를 추가해주시면 됩니다.
+1. info.plist에 
+  1. LSApplicationQueriesSchemes 추
+  1. Native App Key 등록
+1. URL Types에 URL Schemes 추가
 
 #### Android
 
-라이브러리 내에 KakaoSDK dependencies를 설정해두었습니다.
+카카오링크 공식가이드\
+https://developers.kakao.com/docs/latest/ko/getting-started/sdk-android#legacy
 
-android/build.gradle내에
-
-```
-subprojects {
-    repositories {
-        mavenCentral()
-        maven { url 'http://devrepo.kakao.com:8088/nexus/content/groups/public/' }
-    }
-}
-```
-
-를 추가해주시면 됩니다
-
+1. AndroidManifest.xml
+  1. Native App Key 추가
+  2. intent-filter 추가
 
 ## Usage
 
