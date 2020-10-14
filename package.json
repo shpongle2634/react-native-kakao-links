@@ -22,6 +22,10 @@
     "!**/.gradle",
     "!android/build"
   ],
+  "publishConfig": {
+    "access": "private",
+    "registry": "https://nexus.getmiso.com/repository/npm-private/"
+  },
   "author": {
     "name": "Yeongmok Kim",
     "url": "https://github.com/yeongmok"
