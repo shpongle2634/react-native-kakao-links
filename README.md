@@ -20,7 +20,7 @@ react-native-kakao-plus-friend 와 같이 사용하시는경우 패키지명 중
 
 ## Installation
 
-`$ npm install @miso/react-native-kakao-link --save`
+`$ npm install @getmiso/react-native-kakao-link --save`
 
 ### React Native Link
 

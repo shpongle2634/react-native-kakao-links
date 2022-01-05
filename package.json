@@ -23,14 +23,8 @@
     "!android/build"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "//npm.pkg.github.com"
   },
-  "author": {
-    "name": "Yeongmok Kim",
-    "url": "https://github.com/yeongmok"
-  },
-  "homepage": "https://github.com/getmiso/react-native-kakao-link",
-  "license": "UNLICENSED",
   "peerDependencies": {
     "react-native": ">= 0.62"
   }
