@@ -264,4 +264,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+.npmrc
+node_modules
+
 # End of https://www.gitignore.io/api/macos,android,windows,androidstudio
