@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://miso.kr"
   s.license      = package['license']
   s.platform     = :ios, "10.0"
-  s.source       = { :git => "https://github.com/getmiso/react-native-kakao-links.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/getmiso/react-native-kakao-link.git", :tag => "#{s.version}" }
   s.source_files = "ios/**/*.{h,m}"
   s.requires_arc = true
 

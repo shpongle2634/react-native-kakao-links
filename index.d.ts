@@ -1,4 +1,4 @@
-declare module '@miso/react-native-kakao-link' {
+declare module '@getmiso/react-native-kakao-link' {
   export type LinkObject = {
     webURL?: string;
     mobileWebURL?: string;
